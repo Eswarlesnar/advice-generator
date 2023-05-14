@@ -1,5 +1,6 @@
 import { useEffect  , useState} from 'react'
 import axios from 'axios'
+import diceImage from "./assets/images/icon-dice.svg"
 import './App.css'
 
 function App() {
@@ -39,9 +40,9 @@ function App() {
                 
               </div>
             </div>
-            <div className="next-advice">
-              <img src= {"/src/assets/images/icon-dice.svg"} />
-            </div>
+            <button className="next-advice" onClick={callApi}>
+              <img src= {diceImage} />
+            </button>
           </>)
          }
        </div>
