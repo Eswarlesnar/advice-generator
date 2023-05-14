@@ -1,3 +1,5 @@
+@import url("https://fonts.google.com/specimen/Manrope");
+
 :root {
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -13,5 +15,6 @@ body {
   min-height: 100vh;
   background-color: hsl(218, 23%, 16%);
   box-sizing: border-box;
+  font-family: 'Manrope' sans-serif;
 }
 
