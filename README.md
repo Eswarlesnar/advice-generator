@@ -10,3 +10,12 @@ npm run dev to run the app locally
 
 
 App live link : https://advice-generator-heartfelt.netlify.app/
+
+
+app details : 
+
+
+this is a random advice generator from the api : https://api.adviceslip.com
+
+image.png click on this to generate a random advice
+
