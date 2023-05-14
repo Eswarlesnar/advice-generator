@@ -1,6 +1,8 @@
 import { useEffect  , useState} from 'react'
 import axios from 'axios'
 import diceImage from "./assets/images/icon-dice.svg"
+import mobileDivider from "./assets/images/pattern-divider-mobile.svg"
+import divider from "./assets/images/pattern-divider-desktop.svg"
 import './App.css'
 
 function App() {
@@ -37,7 +39,10 @@ function App() {
                 "{quote.advice}"
               </p>
               <div className='divider'>
-                
+                <picture>
+                  <source media="(max-width: 450px)" srcset={mobileDivider}/>
+                  <img src={divider} alt="divider"  />
+                </picture>
               </div>
             </div>
             <button className="next-advice" onClick={callApi}>

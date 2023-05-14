@@ -47,9 +47,9 @@
 }
 
 .divider {
-  background:  url("/src/assets/images/pattern-divider-desktop.svg") no-repeat;
   height :18px;
   width :100%;
+  text-align: center;
 }
 
 .next-advice{
@@ -75,3 +75,31 @@
 
 
 
+@media screen  and (max-width :450px){
+  .container {
+    align-items: baseline;
+  }
+  .card{
+    margin-top :200px;
+    width:90%;
+    height :400px;
+  }
+  .content {
+    height : 90%; 
+    gap:30px;
+  }
+  .next-advice{
+    top:375px;
+    left : 45%;
+  }
+}
+
+
+@media screen and (max-width :350px) {
+  .divider img{
+    width :80%;
+  }
+  .next-advice{
+    left : 40%;
+  }
+}
